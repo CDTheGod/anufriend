@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Anu's playground</h1>
+  <p id="description">So, you wanna be friends with Anuska?</p>
+  <form id="survey-form">
+  <div class="form-group">
+    <label id="name-label">
+      Enter Your Name: 
+    </label>
+    <input name="name" type="text" id="name" placeholder="Name" required>
+  </div>
+  <div class="form-group">
+    <label id="email-label">
+      Enter Your Email: 
+    </label>
+    <input name=
+    "email"type="email" id="email" placeholder="xyz@abc.com" required>
+  </div>
+  <div class="form-group">
+    <label id="number-label">
+      Enter Your Age: 
+    </label>
+    <input name="age" type="number" id="number" placeholder="0-100" max="100" min="0" required>
+  </div>
+  <div class="form-group">
+    <p>Gender</p>
+<label>
+      <input type="radio" name="gender" value="male">
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female">
+      Female
+    </label>
+    <label>
+      <input type="radio" name="gender" value="ah">
+      Attack helicopter
+    </label>
+    <label>
+      <input type="radio" name="gender" value="others">
+      Others
+    </label>
+  </div>
+  <div class="form-group">
+    <p>What type of person are you</p>
+    <select name="nature" id="dropdown" required>
+      <option disabled selected value>Select type</option>
+      <option value="introvert">Introvert</option>
+      <option value="extrovert">Extrovert</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <p>Do you like Anuska</p>
+    <label>
+      <input type="radio" name="liking" value="With my life">
+      "More than anyone else!"
+    </label>
+    <label>
+      <input type="radio" name="liking" value="very much" checked>
+      "Very much!"
+    </label>
+    <label>
+      <input type="radio" name="liking" value="a little">
+      "A little!"
+    </label>
+  </div>
+  <div class="form-group">
+    <p>Common traits with Anuska</p>
+    <label>
+      <input type="checkbox" name="commons" value="cat lover">
+      Cat lover
+    </label>
+    <label>
+      <input type="checkbox" name="commons" value="bookworm">
+      Bookworm
+    </label>
+    <label>
+      <input type="checkbox" name="commons" value="swiftie">
+      Swiftie
+    </label>
+    <label>
+      <input type="checkbox" name="commons" value="romcoms">
+      Watches romcoms
+    </label>
+    <label>
+      <input disabled type="checkbox" name="commons" value="Cutie">
+      As cute as anuska
+    </label>
+  </div>
+  <div class="form-group">
+    <p> Wanna give a reason why Anuska should befriend you</p>
+    <textarea id ="reason" name="reason" placeholder="Anuska would like to befriend me...........">
+    </textarea>
+  </div>
+  <div class="form-group">
+    <button type="submit" id="submit">
+    Submit
+    </button>
+  </div>
+  </form>
+</body>
+</html>
