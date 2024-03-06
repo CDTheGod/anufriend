@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: black;
+    margin: 0;
+    background-image: url(https://media.licdn.com/dms/image/D4E03AQErQ_42b8vubA/profile-displayphoto-shrink_800_800/0/1691357980948?e=1714608000&v=beta&t=bIYGnZw27Ucl1KgqUE0jRdpCYJUK7N6ste8ofrawzTA);
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
