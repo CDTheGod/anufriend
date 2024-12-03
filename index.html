@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylyanu.css">
 </head>
 <body>
   <h1 id="title">Anu's playground</h1>
-  <p id="description">So, you wanna be friends with Anuska?</p>
+  <p id="description">So, you wanna be friends with Anuska? Go down and
+    look to your left <---
+  </p>
   <form id="survey-form">
   <div class="form-group">
     <label id="name-label">
@@ -28,7 +30,7 @@
   </div>
   <div class="form-group">
     <p>Gender</p>
-<label>
+    <label>
       <input type="radio" name="gender" value="male">
       Male
     </label>
@@ -46,13 +48,14 @@
     </label>
   </div>
   <div class="form-group">
-    <p>What type of person are you</p>
+    <p>(Basic) what type of person are you</p>
     <select name="nature" id="dropdown" required>
       <option disabled selected value>Select type</option>
       <option value="introvert">Introvert</option>
       <option value="extrovert">Extrovert</option>
     </select>
   </div>
+
   <div class="form-group">
     <p>Do you like Anuska</p>
     <label>
@@ -65,7 +68,11 @@
     </label>
     <label>
       <input type="radio" name="liking" value="a little">
-      "A little!"
+      "A little but enough to want to know her more:)"
+    </label>
+    <label>
+      <input type="radio" name="lking" value="bf">
+      "I'd rather ask her out on a date but there's no form for that:("
     </label>
   </div>
   <div class="form-group">
@@ -87,14 +94,26 @@
       Watches romcoms
     </label>
     <label>
-      <input disabled type="checkbox" name="commons" value="Cutie">
-      As cute as anuska
+      <input type="checkbox" name="commons" value="acads">
+      Nerdy
+    </label>
+    <label>
+      <input type="checkbox" name="commons" value="nap">
+      Loves to nap
+    </label>
+    <label>
+        <a title="Roses are red, violets are blue, sorry but Anuska's smarter then you">
+        <input disabled type="checkbox" name="commons" value="Smart">Smart as fuck
+        </a>
+    </label>
+    <label class="sus"><a title="yeah get outta here bitch :/">
+        <input disabled type="checkbox" name="commons" value="Cutie">As cute as anuska
+        </a>
     </label>
   </div>
   <div class="form-group">
     <p> Wanna give a reason why Anuska should befriend you</p>
-    <textarea id ="reason" name="reason" placeholder="Anuska would like to befriend me...........">
-    </textarea>
+    <textarea id ="reason" name="reason" placeholder="Anuska would like to befriend me..........."></textarea>
   </div>
   <div class="form-group">
     <button type="submit" id="submit">
